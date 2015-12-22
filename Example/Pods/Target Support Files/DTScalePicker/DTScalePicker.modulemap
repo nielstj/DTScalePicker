@@ -1,0 +1,6 @@
+framework module DTScalePicker {
+  umbrella header "DTScalePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

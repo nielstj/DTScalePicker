@@ -1,0 +1,14 @@
+PODS:
+  - DTScalePicker (0.1.0)
+
+DEPENDENCIES:
+  - DTScalePicker (from `../`)
+
+EXTERNAL SOURCES:
+  DTScalePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DTScalePicker: 5bb7715ff1ff6f34e5f4d5ceea340d77a191c8ca
+
+COCOAPODS: 0.39.0

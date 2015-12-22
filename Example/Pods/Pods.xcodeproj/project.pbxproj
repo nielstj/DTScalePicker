@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B624E80F5B092084BCC50397F6F730E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		29CFA404F8874559342E715591BE5408 /* DTScalePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38C77AC824F56F60759F5BA87E48875 /* DTScalePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A62AE15BAF04F8B3488423D0D45266 /* Pods-DTScalePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD504D2AC219F9778FE03A8FAB5CC32 /* Pods-DTScalePicker_Example-dummy.m */; };
+		6904765168A5E5838E48D6BE4B8B2567 /* Pods-DTScalePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AAFD418EA7F093CA48FA7E94189C84 /* Pods-DTScalePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F782DE7A11853359BCEECED7D938CC /* Pods-DTScalePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB88964398A1CC6756A0CE8E80A6B13 /* Pods-DTScalePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16A7FE09F75FD49140374D90F2D9272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B1E05BACC55C50D4E6EBF0CE07A06798 /* DTScalePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A16BD8C00AE3F11524DFAE2C9288D4 /* DTScalePicker-dummy.m */; };
+		B48AAF596E839C34316DE2D6B97C06A6 /* DTScalePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 44BA274FEF56D4DE913D7735D45D7EEE /* DTScalePicker.bundle */; };
+		C8835AD290D605D1CB6824B76411B173 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147266538686A7D72C3DB1EF403201F /* ReplaceMe.swift */; };
+		CFB6AF7790FF3CE6F290C665394086A2 /* Pods-DTScalePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12BD73B076D8CFC3EC54410B251F320 /* Pods-DTScalePicker_Tests-dummy.m */; };
+		E3C847A6C7F41A7ACB031AAF3563A38C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D110746BF137CDD7EB5F9ED21EAB7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1699F61CE3A57977029DED4E4B0FD96C;
+			remoteInfo = DTScalePicker;
+		};
+		CE81F285126118F1FA3C16E04E9D6AA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EF649ADB459F5AF3F1371F234ABB9F;
+			remoteInfo = "DTScalePicker-DTScalePicker";
+		};
+		FF82702F56077A6DAC4510D94ACC400F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1699F61CE3A57977029DED4E4B0FD96C;
+			remoteInfo = DTScalePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0471182E960C4A01627AC05FDA88E540 /* Pods-DTScalePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTScalePicker_Example.modulemap"; sourceTree = "<group>"; };
+		0B1A2A2B626B982E1816C3955E5B47A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142F2C95E1F217DDA553E0A92CBEA304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTScalePicker.xcconfig; sourceTree = "<group>"; };
+		2147266538686A7D72C3DB1EF403201F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		23AAFD418EA7F093CA48FA7E94189C84 /* Pods-DTScalePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTScalePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24E73752C5A2BCF40721C2B5AB99EDAB /* Pods-DTScalePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTScalePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F37E4B1CB3B24387D168D19D393475A /* Pods-DTScalePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTScalePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		304D8E425D5F3EFA3E46426C20C8B9F1 /* Pods-DTScalePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTScalePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		335B27CF2BDBE001843B44E98F812749 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FFFDE0B7D29339878727F67F5CB4097 /* Pods-DTScalePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTScalePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		44BA274FEF56D4DE913D7735D45D7EEE /* DTScalePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTScalePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB88964398A1CC6756A0CE8E80A6B13 /* Pods-DTScalePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTScalePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		6032736D2532BA16E76CC4F8D4DD7DCE /* Pods-DTScalePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTScalePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		69B3094B3E22A1232D44B1B22FC48BD5 /* Pods-DTScalePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTScalePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73119F731950E69E95DA556D9F91E2BC /* Pods-DTScalePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTScalePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		7872D6793146180AE9617E2E591AEE6E /* DTScalePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTScalePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CECBD8F81536E65A9765051E918AE48 /* Pods-DTScalePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTScalePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		999941DB7EEF61C040F1BC1BA6AD0ADD /* DTScalePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTScalePicker.modulemap; sourceTree = "<group>"; };
+		B2D49C5F19B299606F5A89EC33304CD8 /* Pods-DTScalePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTScalePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFD1E78B46CABBCE018154D4D0730EB5 /* Pods-DTScalePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTScalePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C0696262154C5AB1314294D0FE81AEBF /* Pods-DTScalePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTScalePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1A56E25150E6AB7DB8D9BE99910F130 /* Pods-DTScalePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTScalePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C2A16BD8C00AE3F11524DFAE2C9288D4 /* DTScalePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTScalePicker-dummy.m"; sourceTree = "<group>"; };
+		CBD504D2AC219F9778FE03A8FAB5CC32 /* Pods-DTScalePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTScalePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		CFEE23FE4677CE9117B13860B2810E62 /* Pods_DTScalePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTScalePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38C77AC824F56F60759F5BA87E48875 /* DTScalePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTScalePicker-umbrella.h"; sourceTree = "<group>"; };
+		DD58F3CA1780D2D8EF74725ADE87414F /* Pods_DTScalePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTScalePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12BD73B076D8CFC3EC54410B251F320 /* Pods-DTScalePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTScalePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		E80B0AF008286BB488E4D9053B556632 /* Pods-DTScalePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTScalePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FB5215735417B562187E77D1B4AC0F34 /* DTScalePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTScalePicker-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9CE3C7DEE1C3037B095ECD4F807B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C847A6C7F41A7ACB031AAF3563A38C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F34F08F1E89ACACC248C4E388600E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFCEDF025050EDC651C92B642EF2247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16A7FE09F75FD49140374D90F2D9272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91FEDF303797025E4AE36E9DC1D82E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B624E80F5B092084BCC50397F6F730E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015FD9CC6020FF54CAE6A9410F5C75E2 /* Pods-DTScalePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				335B27CF2BDBE001843B44E98F812749 /* Info.plist */,
+				0471182E960C4A01627AC05FDA88E540 /* Pods-DTScalePicker_Example.modulemap */,
+				B2D49C5F19B299606F5A89EC33304CD8 /* Pods-DTScalePicker_Example-acknowledgements.markdown */,
+				24E73752C5A2BCF40721C2B5AB99EDAB /* Pods-DTScalePicker_Example-acknowledgements.plist */,
+				CBD504D2AC219F9778FE03A8FAB5CC32 /* Pods-DTScalePicker_Example-dummy.m */,
+				E80B0AF008286BB488E4D9053B556632 /* Pods-DTScalePicker_Example-frameworks.sh */,
+				6032736D2532BA16E76CC4F8D4DD7DCE /* Pods-DTScalePicker_Example-resources.sh */,
+				5EB88964398A1CC6756A0CE8E80A6B13 /* Pods-DTScalePicker_Example-umbrella.h */,
+				2F37E4B1CB3B24387D168D19D393475A /* Pods-DTScalePicker_Example.debug.xcconfig */,
+				C1A56E25150E6AB7DB8D9BE99910F130 /* Pods-DTScalePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-DTScalePicker_Example";
+			path = "Target Support Files/Pods-DTScalePicker_Example";
+			sourceTree = "<group>";
+		};
+		2A22B70D91E4CC89557700B65CBD3C6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				999941DB7EEF61C040F1BC1BA6AD0ADD /* DTScalePicker.modulemap */,
+				1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */,
+				C2A16BD8C00AE3F11524DFAE2C9288D4 /* DTScalePicker-dummy.m */,
+				FB5215735417B562187E77D1B4AC0F34 /* DTScalePicker-prefix.pch */,
+				D38C77AC824F56F60759F5BA87E48875 /* DTScalePicker-umbrella.h */,
+				0B1A2A2B626B982E1816C3955E5B47A2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTScalePicker";
+			sourceTree = "<group>";
+		};
+		2FCB72959FF532D4B91BA3B0940AF295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44BA274FEF56D4DE913D7735D45D7EEE /* DTScalePicker.bundle */,
+				7872D6793146180AE9617E2E591AEE6E /* DTScalePicker.framework */,
+				DD58F3CA1780D2D8EF74725ADE87414F /* Pods_DTScalePicker_Example.framework */,
+				CFEE23FE4677CE9117B13860B2810E62 /* Pods_DTScalePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D31AA949D6F77A8166766C804A84B52 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81BDCDAC17FA2BE203F108A60337527 /* DTScalePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6D31AA949D6F77A8166766C804A84B52 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2FCB72959FF532D4B91BA3B0940AF295 /* Products */,
+				B3DB7BD8EBF95182CF2766266EC2055D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80527B1ADF92EDD80D906B565E0B95E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD7BA8E96C933727D49E1FC6492A1689 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A7FD481D3EDB93DA4DEDA6E8231E25F8 /* Pods-DTScalePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				142F2C95E1F217DDA553E0A92CBEA304 /* Info.plist */,
+				73119F731950E69E95DA556D9F91E2BC /* Pods-DTScalePicker_Tests.modulemap */,
+				C0696262154C5AB1314294D0FE81AEBF /* Pods-DTScalePicker_Tests-acknowledgements.markdown */,
+				69B3094B3E22A1232D44B1B22FC48BD5 /* Pods-DTScalePicker_Tests-acknowledgements.plist */,
+				E12BD73B076D8CFC3EC54410B251F320 /* Pods-DTScalePicker_Tests-dummy.m */,
+				BFD1E78B46CABBCE018154D4D0730EB5 /* Pods-DTScalePicker_Tests-frameworks.sh */,
+				8CECBD8F81536E65A9765051E918AE48 /* Pods-DTScalePicker_Tests-resources.sh */,
+				23AAFD418EA7F093CA48FA7E94189C84 /* Pods-DTScalePicker_Tests-umbrella.h */,
+				304D8E425D5F3EFA3E46426C20C8B9F1 /* Pods-DTScalePicker_Tests.debug.xcconfig */,
+				3FFFDE0B7D29339878727F67F5CB4097 /* Pods-DTScalePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTScalePicker_Tests";
+			path = "Target Support Files/Pods-DTScalePicker_Tests";
+			sourceTree = "<group>";
+		};
+		B3DB7BD8EBF95182CF2766266EC2055D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				015FD9CC6020FF54CAE6A9410F5C75E2 /* Pods-DTScalePicker_Example */,
+				A7FD481D3EDB93DA4DEDA6E8231E25F8 /* Pods-DTScalePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C81BDCDAC17FA2BE203F108A60337527 /* DTScalePicker */ = {
+			isa = PBXGroup;
+			children = (
+				80527B1ADF92EDD80D906B565E0B95E3 /* Pod */,
+				2A22B70D91E4CC89557700B65CBD3C6C /* Support Files */,
+			);
+			name = DTScalePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD7BA8E96C933727D49E1FC6492A1689 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2147266538686A7D72C3DB1EF403201F /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0461B516A57EDA32D31142093859CDA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6904765168A5E5838E48D6BE4B8B2567 /* Pods-DTScalePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A5DFEF8A9969ED2D0E33001F0D53D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F782DE7A11853359BCEECED7D938CC /* Pods-DTScalePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FFE6F8B1E3A7DB1680BF386A424319 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CFA404F8874559342E715591BE5408 /* DTScalePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1699F61CE3A57977029DED4E4B0FD96C /* DTScalePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862EE6783355383255657FE8B42C5400 /* Build configuration list for PBXNativeTarget "DTScalePicker" */;
+			buildPhases = (
+				4CB1E1444A43216DC0EE45112DBABADC /* Sources */,
+				9AFCEDF025050EDC651C92B642EF2247 /* Frameworks */,
+				A7B090D430FEB3B9A0229E14AF13BBFC /* Resources */,
+				F5FFE6F8B1E3A7DB1680BF386A424319 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086756F338692FE0A2AAAFED86B396FF /* PBXTargetDependency */,
+			);
+			name = DTScalePicker;
+			productName = DTScalePicker;
+			productReference = 7872D6793146180AE9617E2E591AEE6E /* DTScalePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3358B61AA23B5782AA46F509652A8F99 /* Pods-DTScalePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FF0FAF8F2DFAD72DAFA2358FDF9B33 /* Build configuration list for PBXNativeTarget "Pods-DTScalePicker_Tests" */;
+			buildPhases = (
+				A3FA06B67B49984B1F3FDABE67BD97D9 /* Sources */,
+				B91FEDF303797025E4AE36E9DC1D82E9 /* Frameworks */,
+				0461B516A57EDA32D31142093859CDA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD91A0276ECBFB23154202F2AB2F0150 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTScalePicker_Tests";
+			productName = "Pods-DTScalePicker_Tests";
+			productReference = CFEE23FE4677CE9117B13860B2810E62 /* Pods_DTScalePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52B94FE6FEEE5E8D97991B8D34A1B568 /* Pods-DTScalePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F21DE86973D3134D903161049F08F6 /* Build configuration list for PBXNativeTarget "Pods-DTScalePicker_Example" */;
+			buildPhases = (
+				B3ABCE6B5B2D1F2098D9762743B95E61 /* Sources */,
+				5E9CE3C7DEE1C3037B095ECD4F807B3C /* Frameworks */,
+				43A5DFEF8A9969ED2D0E33001F0D53D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526E45CCDCC876C5BC23D6C46C70AF9F /* PBXTargetDependency */,
+			);
+			name = "Pods-DTScalePicker_Example";
+			productName = "Pods-DTScalePicker_Example";
+			productReference = DD58F3CA1780D2D8EF74725ADE87414F /* Pods_DTScalePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8EF649ADB459F5AF3F1371F234ABB9F /* DTScalePicker-DTScalePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF010525BC1E5177D6A30CB2D68A0B12 /* Build configuration list for PBXNativeTarget "DTScalePicker-DTScalePicker" */;
+			buildPhases = (
+				97C09E5D8CF87E3B710EE292F09FCDAB /* Sources */,
+				7F34F08F1E89ACACC248C4E388600E07 /* Frameworks */,
+				0EDE3E85DCB19CBD824B3C5C2A84F331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTScalePicker-DTScalePicker";
+			productName = "DTScalePicker-DTScalePicker";
+			productReference = 44BA274FEF56D4DE913D7735D45D7EEE /* DTScalePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2FCB72959FF532D4B91BA3B0940AF295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1699F61CE3A57977029DED4E4B0FD96C /* DTScalePicker */,
+				D8EF649ADB459F5AF3F1371F234ABB9F /* DTScalePicker-DTScalePicker */,
+				52B94FE6FEEE5E8D97991B8D34A1B568 /* Pods-DTScalePicker_Example */,
+				3358B61AA23B5782AA46F509652A8F99 /* Pods-DTScalePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EDE3E85DCB19CBD824B3C5C2A84F331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B090D430FEB3B9A0229E14AF13BBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48AAF596E839C34316DE2D6B97C06A6 /* DTScalePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB1E1444A43216DC0EE45112DBABADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E05BACC55C50D4E6EBF0CE07A06798 /* DTScalePicker-dummy.m in Sources */,
+				C8835AD290D605D1CB6824B76411B173 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C09E5D8CF87E3B710EE292F09FCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA06B67B49984B1F3FDABE67BD97D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB6AF7790FF3CE6F290C665394086A2 /* Pods-DTScalePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ABCE6B5B2D1F2098D9762743B95E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A62AE15BAF04F8B3488423D0D45266 /* Pods-DTScalePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086756F338692FE0A2AAAFED86B396FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DTScalePicker-DTScalePicker";
+			target = D8EF649ADB459F5AF3F1371F234ABB9F /* DTScalePicker-DTScalePicker */;
+			targetProxy = CE81F285126118F1FA3C16E04E9D6AA5 /* PBXContainerItemProxy */;
+		};
+		526E45CCDCC876C5BC23D6C46C70AF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTScalePicker;
+			target = 1699F61CE3A57977029DED4E4B0FD96C /* DTScalePicker */;
+			targetProxy = 3D110746BF137CDD7EB5F9ED21EAB7FA /* PBXContainerItemProxy */;
+		};
+		DD91A0276ECBFB23154202F2AB2F0150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTScalePicker;
+			target = 1699F61CE3A57977029DED4E4B0FD96C /* DTScalePicker */;
+			targetProxy = FF82702F56077A6DAC4510D94ACC400F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38B5EEE1AF49BB1E29460F81DCB50347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F37E4B1CB3B24387D168D19D393475A /* Pods-DTScalePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTScalePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTScalePicker_Example/Pods-DTScalePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DTScalePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C11EE9EFB009CF5A4AB4C450BBD5F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTScalePicker/DTScalePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTScalePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTScalePicker/DTScalePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DTScalePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A666058B6BF674FCD0C60CF33DDFA07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFFDE0B7D29339878727F67F5CB4097 /* Pods-DTScalePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTScalePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTScalePicker_Tests/Pods-DTScalePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DTScalePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB7CB56701A0525E46294FEA97A4069C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A56E25150E6AB7DB8D9BE99910F130 /* Pods-DTScalePicker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTScalePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTScalePicker_Example/Pods-DTScalePicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DTScalePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC3C73348234B12132C5E23FF15CE5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DTScalePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DB66E17646DC5D078899D1F1F057B553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DTScalePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EF4BB9DE8DF564BAFB28CE62C7FF4CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304D8E425D5F3EFA3E46426C20C8B9F1 /* Pods-DTScalePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTScalePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTScalePicker_Tests/Pods-DTScalePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DTScalePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F62A1BBB5B46E0D6A0FDA740E94785C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1685515CAA80A81E3F82E4EF30FD649A /* DTScalePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTScalePicker/DTScalePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTScalePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTScalePicker/DTScalePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DTScalePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FF0FAF8F2DFAD72DAFA2358FDF9B33 /* Build configuration list for PBXNativeTarget "Pods-DTScalePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4BB9DE8DF564BAFB28CE62C7FF4CBC /* Debug */,
+				A666058B6BF674FCD0C60CF33DDFA07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F21DE86973D3134D903161049F08F6 /* Build configuration list for PBXNativeTarget "Pods-DTScalePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B5EEE1AF49BB1E29460F81DCB50347 /* Debug */,
+				AB7CB56701A0525E46294FEA97A4069C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862EE6783355383255657FE8B42C5400 /* Build configuration list for PBXNativeTarget "DTScalePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62A1BBB5B46E0D6A0FDA740E94785C2 /* Debug */,
+				4C11EE9EFB009CF5A4AB4C450BBD5F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF010525BC1E5177D6A30CB2D68A0B12 /* Build configuration list for PBXNativeTarget "DTScalePicker-DTScalePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB66E17646DC5D078899D1F1F057B553 /* Debug */,
+				AC3C73348234B12132C5E23FF15CE5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
