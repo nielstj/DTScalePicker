@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import DTScalePicker
 
 class ViewController: UIViewController {
+    
+    
+    var scale : DTScalePicker?
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DTScalePicker"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A custom UIControl ScalePicker with pan gesture and masked progress image"
 
 # This description is used to generate tags and improve search results.

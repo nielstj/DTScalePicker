@@ -12,40 +12,40 @@ import UIKit
 
 
 @IBDesignable
-class DTScalePicker: UIControl {
+public class DTScalePicker: UIControl {
     
-    @IBInspectable var bgColor : UIColor = UIColor.lightGrayColor() {
+    @IBInspectable public var bgColor : UIColor = UIColor.lightGrayColor() {
         didSet { containerView.backgroundColor = bgColor }
     }
     
-    @IBInspectable var progressColor : UIColor = UIColor.whiteColor() {
+    @IBInspectable public var progressColor : UIColor = UIColor.whiteColor() {
         didSet { progressView.backgroundColor = progressColor }
     }
     
-    @IBInspectable var containerOffset : CGFloat = 0.0 {
+    @IBInspectable public var containerOffset : CGFloat = 0.0 {
         didSet {
             containerSizeConstraint.constant = containerOffset
             self.setNeedsDisplay()
         }
     }
     
-    @IBInspectable var value : CGFloat = 0.0 {
+    @IBInspectable public var value : CGFloat = 0.0 {
         didSet { refreshProgress() }
     }
     
-    @IBInspectable var sensitivity : CGFloat = 100
+    @IBInspectable public var sensitivity : CGFloat = 100
     
-    @IBInspectable weak var maskImage : UIImage? {
+    @IBInspectable public weak var maskImage : UIImage? {
         didSet { refreshMask() }
     }
     
-    @IBInspectable var isTextHidden : Bool = false {
+    @IBInspectable public var isTextHidden : Bool = false {
         didSet { textLbl.hidden = isTextHidden }
     }
-    @IBInspectable var fontSize : CGFloat = 20.0 {
+    @IBInspectable public var fontSize : CGFloat = 20.0 {
         didSet { refreshLabel() }
     }
-    @IBInspectable var fontName : String? {
+    @IBInspectable public var fontName : String? {
         didSet { refreshLabel() }
     }
     
@@ -93,18 +93,18 @@ class DTScalePicker: UIControl {
     }
     
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         xibSetup()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
     }
     
     
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         refreshMask()
         refreshProgress()
     }
